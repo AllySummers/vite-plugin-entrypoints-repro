@@ -1,13 +1,13 @@
 {
     "name": "vite-plugin-entrypoints-repro",
     "version": "1.0.0",
-    "type": "module",
+    "type": "commonjs",
     "main": "index.js",
     "scripts": {
-		"test1": "node vite.config.cjs",
-		"test2": "node vite.config.mjs",
-		"test3": "node vite2.config.mjs",
-		"test4": "node vite3.config.mjs"
+        "test1": "node vite.config.cjs",
+        "test2": "node vite.config.mjs",
+        "test3": "node vite2.config.mjs",
+        "test4": "node vite3.config.mjs"
     },
     "keywords": [],
     "author": "",
