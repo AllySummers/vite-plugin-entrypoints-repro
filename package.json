@@ -1,0 +1,22 @@
+{
+    "name": "vite-plugin-entrypoints-repro",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+		"test1": "node vite.config.cjs",
+		"test2": "node vite.config.mjs",
+		"test3": "node vite2.config.mjs",
+		"test4": "node vite3.config.mjs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/node": "^22.4.0",
+        "typescript": "^5.5.4",
+        "vite": "^5.4.1",
+        "vite-plugin-entrypoints": "^1.0.2"
+    }
+}
